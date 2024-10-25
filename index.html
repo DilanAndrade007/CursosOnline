@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de cursos online para aprender de manera eficiente y flexible.">
+    <meta name="keywords" content="cursos, aprendizaje, online, educación, programación, diseño, marketing">
+    <title>CursosOnline - Aprende a tu ritmo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">CursosOnline</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="pages/about.html">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="pages/faq.html">Ayuda</a></li>
+            </ul>
+            <div class="cta-buttons">
+                <a href="#" class="login">Iniciar sesión</a>
+                <a href="#" class="register">Regístrate</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Aprende con los mejores cursos online</h1>
+            <p>Descubre una amplia gama de cursos que te permitirán mejorar tus habilidades.</p>
+            <a href="#cursos" class="cta-button">Ver Cursos</a>
+        </div>
+    </section>
+
+    <!-- Sección de cursos -->
+    <section id="cursos">
+        <h2>Explora nuestros cursos</h2>
+        <div class="course-grid">
+            <article class="curso">
+                <img src="../assets/curso_web.jpg" alt="Curso de Desarrollo Web">
+                <h3>Desarrollo Web</h3>
+                <p>Aprende HTML, CSS, JavaScript y frameworks modernos para desarrollar sitios web.</p>
+                <a href="pages/course-details.html?curso=desarrollo-web" class="cta-button">Más información</a>
+            </article>
+            <article class="curso">
+                <img src="../assets/curso_ux.jpg" alt="Curso de Diseño UX/UI">
+                <h3>Diseño UX/UI</h3>
+                <p>Domina las mejores prácticas de diseño centrado en el usuario para crear experiencias atractivas.</p>
+                <a href="pages/course-details.html?curso=diseño-uxui" class="cta-button">Más información</a>
+            </article>
+            <!-- Añadir más cursos -->
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios">
+        <h2>Beneficios de aprender con nosotros</h2>
+        <div class="beneficios-container">
+            <div class="beneficio">
+                <h3>Acceso ilimitado</h3>
+                <p>Accede a todos los cursos en cualquier momento y desde cualquier lugar.</p>
+            </div>
+            <div class="beneficio">
+                <h3>Actualización constante</h3>
+                <p>Cursos siempre actualizados con las últimas tendencias de la industria.</p>
+            </div>
+            <div class="beneficio">
+                <h3>Soporte experto</h3>
+                <p>Resuelve tus dudas con nuestros instructores y participa en foros comunitarios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios">
+        <h2>Lo que dicen nuestros estudiantes</h2>
+        <div class="testimonios-container">
+            <div class="testimonio">
+                <p>"Gracias a CursosOnline, conseguí mi primer trabajo como desarrollador web."</p>
+                <h4>Juan Pérez</h4>
+            </div>
+            <div class="testimonio">
+                <p>"Los cursos son claros, bien estructurados y el soporte es excelente."</p>
+                <h4>Ana García</h4>
+            </div>
+            <!-- Añadir más testimonios -->
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CursosOnline. Todos los derechos reservados. | <a href="pages/privacy-policy.html">Política de Privacidad</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
